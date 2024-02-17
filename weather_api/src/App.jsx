@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import WeatherComponent from "./WeatherComponent";
-
+import React, { useState } from 'react';
+import WeatherComponent from './WeatherComponent';
+import './App.css';
 function App() {
-  const [city, setCity] = useState("130000");
+  const [city, setCity] = useState('130000');
 
   const handleChange = (e) => {
     setCity(e.target.value);
